@@ -14,6 +14,8 @@ class homepageVM extends homepagemodel{
   // Create a method decrementCounter
   void decrementCounter(){
     count = count-1;
-
+    if (count<0){
+      count = 0;
+    }
   }
 }

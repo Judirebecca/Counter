@@ -22,7 +22,7 @@ class homepageView extends StatelessWidget{
                   builder: (abc) {
                     // Create a text widget that consumes the variable count from the homepagmodel
                     return Container(
-                      width: 200,
+                      width: 100,
                       height: 60,
                       decoration: BoxDecoration(color: Colors.lightBlue, borderRadius: BorderRadius.circular(8)),
                       child: Align(
